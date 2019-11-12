@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "lib": [
+      "dom",
       "es5",
       "es6",
       "es7",
@@ -12,6 +13,7 @@
     ],
     "target": "es2017",
     "module": "commonjs",
+    "jsx": "react",
     "moduleResolution": "Node",
     "outDir": "./dist",
     "rootDir": "./lib",
