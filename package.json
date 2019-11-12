@@ -1,6 +1,6 @@
 {
   "name": "@eclass/scrollmove",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Paquete para mover el scroll suave hasta centrar un elemento en pantalla",
   "main": "dist/index.js",
   "type": "commonjs",
