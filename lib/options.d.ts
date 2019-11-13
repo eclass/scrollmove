@@ -1,9 +1,9 @@
-type behavior = "auto" | "smooth";
-type block = "start" | "center" | "end" | "nearest";
-type inline = "nearest" | "start" | "center" | "end";
+type behavior = 'auto' | 'smooth'
+type block = 'start' | 'center' | 'end' | 'nearest'
+type inline = 'nearest' | 'start' | 'center' | 'end'
 
-export type optionsTypes = {
-  behavior?: behavior;
-  block?: block;
-  inline?: inline;
-};
+export type options = {
+  behavior?: behavior
+  block?: block
+  inline?: inline
+}

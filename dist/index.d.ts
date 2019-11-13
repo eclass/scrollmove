@@ -1,4 +1,4 @@
-import { optionsTypes } from "./options";
+import { options } from './options';
 /**
  * Move scroll smooth to center element id selected.
  *
@@ -7,6 +7,6 @@ import { optionsTypes } from "./options";
  * scrollMode(#id)
  * @returns {null} Void.
  */
-declare const scrollMove: (id: string, options?: optionsTypes) => void;
+declare const scrollMove: (id: string, options?: options) => void;
 export default scrollMove;
 //# sourceMappingURL=index.d.ts.map

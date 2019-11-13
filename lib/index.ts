@@ -1,4 +1,4 @@
-import { optionsTypes } from "./options";
+import { options } from './options'
 
 /**
  * Move scroll smooth to center element id selected.
@@ -10,12 +10,12 @@ import { optionsTypes } from "./options";
  */
 const scrollMove = (
   id: string,
-  options: optionsTypes = { behavior: "smooth", block: "center" }
+  options: options = { behavior: 'smooth', block: 'center' }
 ) => {
-  const element = document.querySelector(id) || null;
+  const element = document.querySelector(id) || null
   if (element) {
-    element.scrollIntoView(options);
+    element.scrollIntoView(options)
   }
-};
+}
 
-export default scrollMove;
+export default scrollMove
