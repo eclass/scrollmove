@@ -7,8 +7,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "format": "prettier-standard '{src,test}/**/*{.js,.ts}'",
-    "lint": "eslint . --fix",
+    "format": "prettier-standard 'lib/**/*.ts'",
+    "lint": "eslint 'lib/**/*.ts' --fix",
     "test": "cd test && npm run test",
     "watch": "tsc --watch"
   },
@@ -76,7 +76,7 @@
     }
   },
   "lint-staged": {
-    "{src,test,lib}/**/*.ts": [
+    "lib/**/*.ts": [
       "eslint --fix",
       "prettier-standard",
       "git add"
